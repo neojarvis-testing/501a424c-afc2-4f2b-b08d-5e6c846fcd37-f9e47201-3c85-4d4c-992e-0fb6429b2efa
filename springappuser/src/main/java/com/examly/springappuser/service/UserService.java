@@ -1,5 +1,8 @@
 package com.examly.springappuser.service;
 
-public class UserService {
-    
+import com.examly.springappuser.model.User;
+
+public interface UserService {
+    User createUser(User user);
+    User loginUser(String email,String password);
 }
