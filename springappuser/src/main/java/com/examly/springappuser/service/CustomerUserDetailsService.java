@@ -1,5 +1,5 @@
 package com.examly.springappuser.service;
 
-public class UserService {
+public class CustomerUserDetailsService {
     
 }
